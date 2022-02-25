@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.container-01 {
+  max-width: 1700px;
+  height: auto;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px;
+}
+
+.container-flho {
+  width: 800px;
+  height: 560px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #a7a7a7;
+  background: #fff;
+}
+
+.container-filho-img {
+  max-width: 800px;
+}
+
+.container-filho-Text {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+.container-filho-Text h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.container-filho-Text p {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+
+.container-filho-Text a {
+  padding: 15px 30px;
+  background: #ffbc0d;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #111;
+  font-weight: 100;
+  transition: 0.3s;
+}
+
+.container-filho-Text a:hover {
+  background: #444;
+  color: #fff;
+}
+
+/* essa imagem estava com defeito no height */
+.img-com-defeito img {
+  height: 350px;
+}
+/*Resolvido ;)*/
+
+.container-02 {
+  max-width: 1700px;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+  padding: 20px;
+}
+
+.list {
+  width: 530px;
+  height: 500px;
+  box-shadow: 0px 0px 5px #a7a7a7;
+  list-style: none;
+  border-radius: 5px;
+}
+
+.list-Text {
+  width: 500px;
+  padding: 30px;
+  text-align: center;
+}
+
+.list-Text h3 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.list-Text p {
+  margin-bottom: 60px;
+}
+
+.list-Text a {
+  padding: 15px 30px;
+  background: #ffbc0d;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  color: #111;
+  font-weight: 100;
+  transition: 0.3s;
+}
+
+.list-Text a:hover {
+  background: #444;
+  color: #fff;
+}
+
+/*tinha um pobleminha com a teg a dessa box*/
+.list-Text-ajuste p {
+  margin-bottom: 90px;
+}
