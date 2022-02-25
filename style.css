@@ -1,3 +1,108 @@
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+}
+
+.icone-mcdonalds{
+  width: 100px;
+  margin-right: 10px;
+}
+
+.itens-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+  width: 70%;
+}
+
+.servicos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicos ul{
+  display: flex;
+  align-items: center;
+}
+
+.itens-servico {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.itens-servico a{
+  text-decoration: none;
+  color: #606060;
+  font-size: 14px;
+}
+
+.itens-servico .button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  color: black;
+  background-color: #ffbc0d;
+  border-radius: 5px;
+}
+
+.informacoes{
+  display: flex;
+}
+
+.itens-informacoes{
+  list-style-type: none;
+  padding-right: 22px;
+}
+
+.itens-informacoes a{
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.banner{
+  height: 680px;
+  background: url("img/img-home/BANNER_PROMOCIONES_MCD_2_1_06ccc884a5.jpg");
+  background-size: 100%;
+}
+
+.item-banner{
+  width: 400px;
+  position: relative;
+  top: 270px;
+  left: 50px;
+}
+
+.item-banner h1{
+  font-size: 40px;
+}
+
+.item-banner p{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.item-banner a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  background-color: #ffbc0d;
+  border-radius: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;
