@@ -42,7 +42,7 @@ img {
 .servicos ul {
   display: flex;
   align-items: center;
-  font-family: ;
+  font-family: "Roboto", sans-serif;
 }
 
 .itens-servico {
@@ -230,4 +230,115 @@ img {
 /*tinha um pobleminha com a teg a dessa box*/
 .list-Text-ajuste p {
   margin-bottom: 90px;
+}
+
+/*footer*/
+
+.conteiner {
+  background: #ffbc0d;
+  margin-bottom: 250px;
+}
+
+.conteiner-01 {
+  display: flex;
+  gap: 20px;
+  width: 1700px;
+  margin: auto;
+  align-items: center;
+  padding: 60px 20px;
+}
+.conteiner-img img {
+  width: 150px;
+}
+
+.conteiner-text {
+  display: flex;
+  justify-content: space-between;
+  width: 1500px;
+  padding: 20px;
+  align-items: center;
+}
+
+.conteiner-btn a {
+  padding: 15px 30px;
+  background: white;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.conteiner-btn a:hover {
+  background: #444;
+  color: white;
+}
+
+.conteiner-list {
+  width: 1700px;
+  display: flex;
+  margin: auto;
+  gap: 200px;
+  margin-bottom: 90px;
+}
+
+.conteiner-list ul {
+  list-style: none;
+}
+
+.conteiner-list ul p {
+  margin-bottom: 30px;
+}
+
+.conteiner-list li {
+  margin-bottom: 10px;
+}
+
+.conteiner-list ul li a {
+  color: #555;
+  text-decoration: none;
+}
+
+.conteiner-list ul li a:hover {
+  color: #111;
+}
+
+.conteiner-icones-01,
+.box-img {
+  width: 1700px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.conteiner-icones-01 {
+  border-bottom: 2px solid #999;
+  padding-bottom: 60px;
+}
+
+.conteiner-icones-02,
+.conteiner-icones-03,
+.box-img-02,
+.box-img-03 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.conteiner-icones-02 li,
+.conteiner-icones-03 li,
+.box-img-02 li,
+.box-img-03 li {
+  list-style: none;
+}
+
+.conteiner-icones-02 li img {
+  width: 30px;
+}
+
+.conteiner-icones-03 img {
+  width: 100px;
+}
+
+.box-img-03 img {
+  width: 40px;
 }
